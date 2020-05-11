@@ -1,0 +1,8 @@
+{
+  "urlRandomness": "y3-v5b",
+  "hostType": "lan",
+  "lanType": "ip",
+  "dev": true,
+  "minify": false,
+  "https": true
+}

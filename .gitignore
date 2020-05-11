@@ -1,0 +1,7 @@
+# Dependency directories
+backend/node_modules/
+backend/jspm_packages/
+web/node_modules/
+web/jspm_packages/
+mobile/node_modules/
+mobile/jspm_packages/
