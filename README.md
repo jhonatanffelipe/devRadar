@@ -12,7 +12,7 @@ Foi desenvolvida uma API REST desenvolvida em NodeJS utilizando Javascript. O Ba
 - A Aplicação web tem por responsabilidade permitir que as desenvolvedores se cadastrem utilizando seu perfil do Github, tecnologias de trabalho e sua localização que é buscada via serviço de geolocalização. 
 - Foi desenvolvisa em Javascript utilizando o framework ReactJS. 
 
-<img alt="Ecoleta" src="https://raw.githubusercontent.com/jhonatanffelipe/aircnc/master/readmeAssets/web.png" height="350px" />
+<img alt="DevRadar" src="https://raw.githubusercontent.com/jhonatanffelipe/devRadar/master/assets/home.png" height="350px" />
 
 ## Mobile
 
@@ -21,8 +21,7 @@ Foi desenvolvida uma API REST desenvolvida em NodeJS utilizando Javascript. O Ba
 - Utiliza serviço de geolacalização para localizar os desenvolvedores
 
 <div class='row'>
-<img alt="Ecoleta" src="https://github.com/jhonatanffelipe/aircnc/blob/master/readmeAssets/mobile.jpeg"  height="350px" />
-<img alt="Ecoleta" src="https://github.com/jhonatanffelipe/aircnc/blob/master/readmeAssets/mobile.jpeg"  height="350px" />
+<img alt="DevRadar" src="https://raw.githubusercontent.com/jhonatanffelipe/devRadar/master/assets/mobile.jpeg"  height="350px" />
 </div>
 
 ## Como Executar a aplicação?
