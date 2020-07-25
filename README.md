@@ -10,13 +10,13 @@ Foi desenvolvida uma API REST desenvolvida em NodeJS utilizando Javascript. O Ba
 ## Frontend Web
 
 - A Aplicação web tem por responsabilidade permitir que as desenvolvedores se cadastrem utilizando seu perfil do Github, tecnologias de trabalho e sua localização que é buscada via serviço de geolocalização. 
-- Foi desenvolvisa em Javascript utilizando o framework ReactJS. 
+- Foi desenvolvida em Javascript utilizando o framework ReactJS. 
 
 <img alt="DevRadar" src="https://raw.githubusercontent.com/jhonatanffelipe/devRadar/master/assets/home.png" height="350px" />
 
 ## Mobile
 
-- A Aplicação mobile permite que o desenvolvedor filtre pelas tecnologias e encontre desenvolvedores que utilizam as mesmas tecnologias, Além disso é possivel acessar o perfil do desenvolvedor pelo aplicativo;
+- A Aplicação mobile permite que o desenvolvedor filtre pelas tecnologias e encontre desenvolvedores que utilizam as mesmas tecnologias. Além disso é possivel acessar o perfil do desenvolvedor pelo aplicativo;
 - O desenvolvimento da aplicação mobile foi realizado utilizando a ferramenta Expo, desenvolvida em Javascript utilizando o framework React Native.
 - Utiliza serviço de geolacalização para localizar os desenvolvedores
 
