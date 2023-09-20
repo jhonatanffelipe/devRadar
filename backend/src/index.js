@@ -11,17 +11,16 @@ const server = http.Server(app);
 
 setupWebSocket(server);
 //conectando ao banco de dados
-mongoose.connect(
-  "mongodb+srv://devapp:devapp@cluster0-zgbym.mongodb.net/devapp?retryWrites=true&w=majority",
-  {
-    useNewUrlParser: true,
-    useUnifiedTopology: true,
-  }
-);
+mongoose.connect("mongodb://127.0.0.1:27017", {
+  useNewUrlParser: true,
+  useUnifiedTopology: true,
+});
 
 app.use(cors());
 app.use(express.json());
 app.use(routes);
 //MongoDB
 
-server.listen(3333);
+server.listen(3333, () => {
+  console.log(`Server is running an port 3333.`);
+});
