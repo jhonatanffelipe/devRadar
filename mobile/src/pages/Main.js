@@ -9,7 +9,7 @@ import {
 } from "react-native";
 import MapView, { Marker, Callout } from "react-native-maps";
 import {
-  requestPermissionsAsync,
+  requestForegroundPermissionsAsync,
   getCurrentPositionAsync,
 } from "expo-location";
 import { MaterialIcons } from "@expo/vector-icons";
@@ -24,7 +24,7 @@ function Main({ navigation }) {
 
   useEffect(() => {
     async function loadInitialPosition() {
-      const { granted } = await requestPermissionsAsync();
+      const { granted } = await requestForegroundPermissionsAsync();
       if (granted) {
         const { coords } = await getCurrentPositionAsync({
           enableHighAccuracy: true,

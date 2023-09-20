@@ -1,13 +1,10 @@
-import React from "react";
+import { StatusBar } from "expo-status-bar";
 import Routes from "./src/routes";
-import { StatusBar, YellowBox } from "react-native";
-
-YellowBox.ignoreWarnings(["Unrecognized WebSocket"]);
 
 export default function App() {
   return (
     <>
-      <StatusBar barStyle="light-content" backgroundColor="#7d40e7" />
+      <StatusBar style="light" backgroundColor="#7d40e7" />
       <Routes />
     </>
   );
